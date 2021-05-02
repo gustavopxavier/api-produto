@@ -44,6 +44,6 @@ jobs:
           # Path to the Dockerfile
           file: ./src/Dockerfile
           push: true
-          tags: 
+          tags: |
             gustavopxavier/api-bootcamp-produto:latest
             gustavopxavier/api-bootcamp-produto:${{github.run_number}}
